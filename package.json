@@ -1,0 +1,28 @@
+{
+  "name": "ip-address",
+  "version": "1.0.0",
+  "description": "ip-address",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kaelzhang/node-ip-address.git"
+  },
+  "keywords": [
+    "ip-address"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "author": "kaelzhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaelzhang/node-ip-address/issues"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  }
+}
