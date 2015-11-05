@@ -11,7 +11,7 @@
 
 # ip-address
 
-<!-- description -->
+Returns the external ip address of the local machine
 
 ## Install
 
@@ -22,7 +22,9 @@ $ npm install ip-address --save
 ## Usage
 
 ```js
-var ip_address = require('ip-address');
+var address = require('ip-address');
+address();        // 10.0.0.1
+address('ipv6');  // feff::feff::feff::feff
 ```
 
 ## License

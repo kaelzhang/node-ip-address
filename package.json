@@ -1,7 +1,7 @@
 {
   "name": "ip-address",
   "version": "1.0.0",
-  "description": "ip-address",
+  "description": "Returns the external ip address of the local machine",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec ./test/*.js"
@@ -11,7 +11,10 @@
     "url": "git://github.com/kaelzhang/node-ip-address.git"
   },
   "keywords": [
-    "ip-address"
+    "ip-address",
+    "ip",
+    "local",
+    "external"
   ],
   "engines": {
     "node": ">=0.10.0"
